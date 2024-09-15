@@ -286,6 +286,6 @@ def handle_callback_query(call):
         is_card_checking = False
         bot.answer_callback_query(call.id, text="𝗰𝗮𝗿𝗱 𝗰𝗵𝗲𝗰𝗸𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝘀𝘁𝗼𝗽𝗽𝗲𝗱 😮 ‍💨️")
         
-time.sleep(20)#This is because I do not have a proxy. You can control the speed of the chk. I do it in 25 seconds
+time.sleep(10)#This is because I do not have a proxy. You can control the speed of the chk. I do it in 25 seconds
 
 bot.polling()
